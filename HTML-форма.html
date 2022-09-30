@@ -1,0 +1,108 @@
+<html>
+<head>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-down: 150px; /* То же, что и ширина боковой навигации */
+  font-size: 25px; /* Увеличенный текст для включения прокрутки */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<style>
+body {
+  background-image: url('ivi/li.png');
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>
+Достопримечательности Казахстана
+</title>
+</head>
+<body>
+<div class="sidenav">
+  <a href= "page1.html">Главная страница</a>
+  <a href="generalmenu.html">Главное меню</a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="">
+<fieldset width = "100px" height = "100px">
+ <legend>Опрос</legend>
+  <label for="fname">Ваше имя :</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  
+  <label for="lname">Ваш город :</label><br>
+  <select>
+	<option value = "q">Кустанай</option>
+	<option value = "q">Астана </option>
+	<option value = "q">Рудный </option>
+	<option value = "q">Тараз </option>
+	<option value = "q">Алмата </option>
+	<option value = "q">Растов на дану </option>
+	<option value = "q">Караганда  </option>
+  </select>
+  <br>
+  <label for="gender">Пол</label><br>
+      <select id="gender">
+        <option value="female">Женщина</option>
+        <option value="male">Мужчина</option>
+        <option value="male">Незнаю</option>
+      </select><br>
+  </fieldset>
+    <fieldset>
+      <legend>Как вы относитесь к сбыту компьютерной техники </legend>
+	  <input type="radio" name="browser" value="ie"> Мне все нравится<Br>
+      <input type="radio" name="browser" value="opera"> Мне АБСАЛЮТНА ВСЕ НРАВИТСЯ<Br>
+      <input type="radio" name="browser" value="firefox"> Анаконда<Br>
+	  <input type="radio" name="browser" value="ie"> Мне все равно<Br>
+      <input type="radio" name="browser" value="opera"> Отрицательно<Br>
+      <input type="radio" name="browser" value="firefox"> Воздержусь от ответа<Br>
+	  </fieldset>
+	  <fieldset>
+	  <p><b>Ваши мнение по поводу интернет магазинов :</b></p>
+    <p><textarea rows="10" cols="45" name="text"></textarea></p></fieldset>
+	    <input type="submit" value="Отправить информацию"><br>
+  <input type="reset" value= "Очистка">
+</form>
+<p>что таое формы ? Это место куда мы пишем свои данные для регистрации куда либо.</p><br>
+<p> Основные теги это form,input,textarea,name,type,value.</p>
+
+
+</body>
+</html>

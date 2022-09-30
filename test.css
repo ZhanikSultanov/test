@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+}
+.qwe{
+	background-image:url("https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1sssssss");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    -webkit-background-size:cover;
+}
+.bland{
+	display:flex;
+    justify-content: center;
+}
+.bland {
+    font-size: 80px;
+    mix-blend-mode: overlay;/* Прозрачность текста*/ 
+
+    margin-right: 23%; /* Отступ справа */
+    margin-left: 23%; /* Отступ слева */
+	transition:color 0.5s linear;
+	-webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+}
+.bland:hover{
+	color:red;
+	opacity: 1;
+	font-size:90px;
+	mix-blend-mode:normal;
+}
+.wer{
+    height: 500px;
+    background-color: grey;
+    font-size: 20px;
+    opacity:0.5; 
+	border-radius:40px;
+	padding-top:15px;/*Устанавливает значение поля от верхнего края содержимого элемента*/
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.wer:hover{
+    background-color:grey;
+    opacity: 1;
+}
+#wer-img{
+    float: left;
+    margin: 10px 10px 0px 15px;
+}
+.po{
+	padding:15px;
+	right:50px;
+}
+.po:hover{
+	transform:rotate(-360deg);
+	transition:1.0s transform;
+}
+.mo{
+	padding:15px;
+	right:50px;
+}
+.mo:hover{
+	transform:rotate(-360deg);
+	transition:1.0s transform;
+}
+.zx{
+	padding:15px;
+	right:50px;
+}
+.zx:hover{
+	transform:rotate(-360deg);
+	transition:1.0s transform;
+
+}
+.text{
+	display:flex;
+    background-color: black;
+    
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  transition:0.6s;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;/* Убрали подчеркивание*/ 
+  transition:0.6s;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;/* управляет отображением содержания блочного элемента*/ 
+  transition:0.6s;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  	transition:0.6s;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  	transition:0.6s;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;/* Фиксация */ 
+  background-color: #f9f9f9;
+  min-width: 160px;/* минимальная ширина  */ 
+  box-shadow: 10px 8px 16px 10px;/* тени от выподающих элементов  */ 
+  z-index: 1;
+  opacity:0.5;
+  	transition:0.6s;
+}
+.dropdown-content:hover{
+	opacity:1;
+	transition:0.6s;
+} 
+#pos:hover{
+	opacity:1;
+    color:red;
+transition:color 0.5s linear;
+    
+}
+.dropdown-content a {
+  float: none;/* расположение по вертикали  */ 
+  color: black;
+  padding: 12px 16px;/*отступы от полей (внутри) */ 
+  display: block;/*типо на следующей строке*/ 
+  text-align: left;/*расположени текста с лева*/ 
+  opacity:1;
+  	transition:0.6s;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;/*при наведении меняет цвет */ 
+  transition:0.6s;
+}
+
+.dropdown:hover .dropdown-content {/*при наведении на выподающий он выдает нам ссылки */ 
+  display: block;
+
+}
+
+.contact{
+    color: red;
+}
+.drop{
+  border: none;
+  background-color: inherit;
+}
+#menu{
+  right:25px;
+  width:20px;
+}
+.sidenav-qwe:hover{
+color:red;
+transition:color 0.5s linear;
+}
+#reg{
+	background-color:red;
+	border-radius:50px;
+	padding:10px;
+	margin:7px;
+	float: right;
+	-webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+}
+#reg:hover{
+    box-shadow:
+    1px 1px #AA1212,
+    3px 3px #AA1212,
+    4px 4px #AA1212,
+    4px 4px #AA1212,
+    5px 5px #AA1212,
+    6px 6px #AA1212,
+    4px 4px #AA1212;
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+	transition:0.6s;
+}
+}
+
+
